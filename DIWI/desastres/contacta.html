@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset=UTF-8>
+        <meta name=viewport content='width=device-width, initial-scale=1.0'>
+        <meta name=author content='Javier Arias Carroza jariasc14@gmail.com'>
+        <link rel=icon type=image/x-icon href=/img/logo.png>
+        <title>Contacta con Nosotros</title>
+        
+        <link rel=stylesheet href=css/reset.css>
+        <link rel=stylesheet href=css/stylesheet.css>
+        <link rel=stylesheet href=css/contacta.css>
+        <!-- Resto de hojas de estilo CSS -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </li>
+                    <li class="separador"></li>
+                    <li>
+                        <a href="#haiti" class="active">
+                            Desastres
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacta.html">
+                            Contacta con Nosotros
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="tituloform">Contacta con Nosotros</h1>
+            <div class="financiacion">
+                <h1>Financiación por región</h1>
+                <div class="pais">
+                    <span>Asia</span>
+                    <div class="barra">
+                        <div class="porcentaje" id="asia"></div>
+                    </div>
+                    <span>30%</span>
+                </div>
+                <div class="pais">
+                    <span>Europa</span>
+                    <div class="barra">
+                        <div class="porcentaje" id="europa"></div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                <div class="pais">
+                    <span>USA</span>
+                    <div class="barra">
+                        <div class="porcentaje" id="usa"></div>
+                    </div>
+                    <span>50%</span>
+                </div>
+            </div>
+            <form action="" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Javier">
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required placeholder="Arias Carroza">
+                </div>
+                <div>
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
+                <div>
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="tipo_desastre">Tipo de Desastre:</label>
+                    <select id="tipo_desastre" name="tipo_desastre" required>
+                        <option value="calor_extremo">Calor Extremo</option>
+                        <option value="tormentas">Tormentas</option>
+                        <option value="lluvias">Lluvias</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="notas">Notas:</label>
+                    <textarea id="notas" name="notas"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="financiacion" name="financiacion" required>
+                    <label for="financiacion">Soy consciente de la financiación</label>
+                </div>
+                <div>
+                    <input type="submit"></i>
+                    <input type="reset"></i>
+                </div>
+            </form>
+            <footer>
+                <ul>
+                    <li>
+                        <img src="img/socialmedia.png" alt="Redes Sociales">
+                    </li>
+                    <li>
+                        Mayores Desastres Naturales
+                    </li>
+                </ul>
+            </footer>
+        </main>
+        <!-- Scripts de JS al final del body -->
+    </body>
+</html>     
