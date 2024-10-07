@@ -1,0 +1,65 @@
+/* Javier Arias Carroza - Ejercicio Maquetación */
+
+body {
+    margin: 45px 0px;
+    background-color: bisque;
+    width: 1260px;
+    height: 500px;
+}
+
+main {
+    width: 1260px;
+    /* height: 400px; */
+    background-color: burlywood;
+    /* display: flow-root; */
+    overflow: hidden;
+}
+
+div:nth-of-type(1) {
+    width: 780px; /* 800px - 20px de padding (10+10) */
+    height: 340px; /* 400px - 60px de padding (30+30) */
+    background-color: cadetblue;
+    float: left;
+    padding: 30px 10px;
+    margin: 0px 20px;
+}
+
+div:nth-of-type(2) {
+    width: 370px; /* 400px - 30px de padding */
+    height: 300px; /* 400px - 100px de padding (50+50) */
+    background-color: azure;
+    padding: 50px 0px 50px 30px;
+    float: left;
+}
+
+footer {
+    width: 1260px;
+    height: 100px;
+    background-color: aquamarine;
+    clear: both;
+}
+
+img {
+    width:150px;
+}
+
+form {
+    padding-left: 70px;
+}
+
+form input[type="text"] {
+    display: block;
+    width: 500px;
+    padding-left: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #D8D8D8;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b6b5b5;
+}
